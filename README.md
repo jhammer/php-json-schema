@@ -155,7 +155,7 @@ class User extends ClassStructure
     public $info;
 
     /**
-     * @param Properties|static $properties
+     * @param Properties $properties
      * @param Schema $ownerSchema
      */
     public static function setUpProperties($properties, Schema $ownerSchema)
@@ -199,7 +199,7 @@ class UserInfo extends ClassStructure {
     public $birthDay;
 
     /**
-     * @param Properties|static $properties
+     * @param Properties $properties
      * @param Schema $ownerSchema
      */
     public static function setUpProperties($properties, Schema $ownerSchema)
@@ -216,7 +216,7 @@ class UserOptions extends ClassStructure
     public $groupName;
 
     /**
-     * @param Properties|static $properties
+     * @param Properties $properties
      * @param Schema $ownerSchema
      */
     public static function setUpProperties($properties, Schema $ownerSchema)
@@ -238,7 +238,7 @@ class Order implements ClassStructureContract
     public $price;
 
     /**
-     * @param Properties|static $properties
+     * @param Properties $properties
      * @param Schema $ownerSchema
      */
     public static function setUpProperties($properties, Schema $ownerSchema)

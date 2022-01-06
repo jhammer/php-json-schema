@@ -161,7 +161,7 @@ class JsonSchema extends ClassStructure
     public $contentEncoding;
 
     /**
-     * @param Properties|static $properties
+     * @param Properties $properties
      * @param JsonBasicSchema $ownerSchema
      */
     public static function setUpProperties($properties, JsonBasicSchema $ownerSchema)

@@ -18,7 +18,7 @@ class DeepRefRoot extends ClassStructure
     public $prop;
 
     /**
-     * @param Properties|static $properties
+     * @param Properties $properties
      * @param Schema $ownerSchema
      */
     public static function setUpProperties($properties, Schema $ownerSchema)

@@ -9,7 +9,7 @@ use Swaggest\JsonSchema\Structure\ClassStructure;
 class DeepRefProperty extends ClassStructure
 {
     /**
-     * @param Properties|static $properties
+     * @param Properties $properties
      * @param Schema $ownerSchema
      */
     public static function setUpProperties($properties, Schema $ownerSchema)

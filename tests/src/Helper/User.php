@@ -26,7 +26,7 @@ class User extends ClassStructure
     public $options;
 
     /**
-     * @param Properties|static $properties
+     * @param Properties $properties
      * @param Schema $ownerSchema
      * @throws \Exception
      */
