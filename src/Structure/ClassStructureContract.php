@@ -11,5 +11,5 @@ interface ClassStructureContract extends ObjectItemContract
      * @param Properties $properties
      * @param Schema $ownerSchema
      */
-    public static function setUpProperties($properties, Schema $ownerSchema);
+    public static function setUpProperties(Properties $properties, Schema $ownerSchema);
 }
